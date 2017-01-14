@@ -9,7 +9,7 @@
   <body bgcolor="#E3D8D8">
       <div class="form-style-6">
         <h1>LOGIN</h1>
-        <form>
+        <form method="POST" action="login_process.php">
           <input type="text" name="username" placeholder="username" />
           <input type="password" name="password" placeholder="password" />
           <input type="submit" value="Login" />
