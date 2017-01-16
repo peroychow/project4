@@ -9,7 +9,7 @@
 
   //SQL Query to insert data
   $sql = "
-  INSERT INTO member (firstname, lastname, email, password) VALUES ('$firstname', '$lastname', '$email', '$password')
+  INSERT INTO member (firstname, lastname, email, passwd) VALUES ('$firstname', '$lastname', '$email', '$password')
   ";
 
   if ($conn->query($sql) === TRUE) {
