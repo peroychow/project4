@@ -19,6 +19,7 @@
 .form-style-6 input[type="text"],
 .form-style-6 input[type="password"],
 .form-style-6 input[type="email"],
+.form-style-6 input[type="date"],
 .form-style-6 select {
   -webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -40,6 +41,7 @@
 .form-style-6 input[type="text"]:focus,
 .form-style-6 input[type="password"]:focus,
 .form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="date"]:focus,
 .form-style-6 select:focus {
   box-shadow: 0 0 5px #43D1AF;
   padding: 3%;
