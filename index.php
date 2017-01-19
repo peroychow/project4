@@ -6,7 +6,8 @@
   $username = $_SESSION['isLoggedIn'];
 ?>
 
-Wellcome <?php echo $username; ?>
+Wellcome <?php echo $username;?>
+
 
 <a href="logout.php">Logout</a>
 

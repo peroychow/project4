@@ -13,7 +13,8 @@
 
   if ($row['email'] == $username && $row['passwd'] == $password ) {
     session_start();
-    $_SESSION['isLoggedIn'] = $username;
+    $_SESSION['isLoggedIn'] = $username; 
+    $_SESSION['id_member'] = $row['id_member'];
     header("location: index.php");
   }
   else {
