@@ -21,5 +21,5 @@
   $conn->close();
 
   //redirect to index page
-  //header("location:index.php");
+  header("location:index.php");
 ?>
